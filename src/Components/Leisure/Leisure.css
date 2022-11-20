@@ -1,0 +1,13 @@
+.leisure-sub-heading {
+  margin-top: 0;
+  font-family: PT Mono, monospace;
+  color: #51cb20;
+  padding: 25px;
+}
+
+.leisure-lead-heading {
+  padding-left: 25px;
+  font-size: 4em;
+  color: #fefffe;
+  line-height: 70px;
+}

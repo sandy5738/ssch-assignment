@@ -1,0 +1,36 @@
+.top-nav {
+  background-color: #071013;
+  color: #fefffe;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-left: 1em;
+  font-family: "PT Mono", monospace;
+}
+
+.underscore {
+  color: #51cb20;
+}
+
+.nav-socials {
+  list-style: none;
+  padding-right: 1em;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item a {
+  color: #fefffe;
+}
+
+.nav-social-icon {
+  font-size: 1.5em;
+}
+
+.nav-social-icon:hover {
+  color: #51cb20;
+}

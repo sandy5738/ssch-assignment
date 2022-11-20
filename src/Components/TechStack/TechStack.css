@@ -1,0 +1,42 @@
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ts-heading {
+  margin-top: 0;
+  font-family: PT Mono, monospace;
+  color: #51cb20;
+  padding: 25px;
+}
+
+.ts-one {
+  width: 100%;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.ts-icon {
+  font-size: 5em;
+  color: #fefffe;
+}
+
+.ts-icon:hover {
+  color: #20a39e;
+}
+
+.fa-html5:hover {
+  color: #e34c26;
+}
+
+.fa-css3-alt:hover {
+  color: #2965f1;
+}
+.fa-js:hover {
+  color: #f0db4f;
+}
+.fa-node-js:hover {
+  color: #3c873a;
+}

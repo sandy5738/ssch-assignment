@@ -1,0 +1,37 @@
+.currently-reading {
+  height: auto;
+}
+.cr-heading {
+  margin-top: 0;
+  font-family: "PT Mono", monospace;
+  color: #51cb20;
+  padding: 25px;
+}
+
+.cr-container {
+  display: flex;
+  justify-content: center;
+  color: #fefffe;
+  margin: 1.5em 1.5em;
+}
+
+.cr-book-cover {
+  flex: 1;
+}
+
+.cr-book-cover img {
+  width: 250px;
+}
+
+.cr-info {
+  flex: 1;
+}
+
+.cr-book-name {
+  line-height: 40px;
+  color: #75abbc;
+}
+
+.cr-desc {
+  color: #fefffe;
+}

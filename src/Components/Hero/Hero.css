@@ -1,0 +1,25 @@
+.hero {
+  color: #fefffe;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-sub-heading {
+  /* margin: 0; */
+  padding-left: 25px;
+  font-family: "PT Mono", monospace;
+  color: #51cb20;
+  font-size: 2em;
+}
+
+.hero-lead-heading {
+  padding-left: 25px;
+  font-size: 4em;
+}
+
+.hero-lead-sub-heading {
+  padding-left: 25px;
+  font-family: "PT Mono", monospace;
+}

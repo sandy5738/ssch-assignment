@@ -1,0 +1,52 @@
+.projects {
+  height: auto;
+  padding-bottom: 1em;
+}
+.project-heading {
+  margin-top: 0;
+  font-family: PT Mono, monospace;
+  color: #51cb20;
+  padding: 25px;
+}
+
+.p-container {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-item {
+  height: 400px;
+  margin: 0 2em;
+  flex: 1;
+  /* background-color: #fefffe; */
+  display: flex;
+  flex-direction: column;
+}
+
+.p-img img {
+  flex: 1;
+  width: 100%;
+
+  background-color: #fefffe;
+  background-size: cover;
+}
+
+.p-item-info {
+  flex: 1;
+}
+.p-item a {
+  text-decoration: none;
+  color: #75abbc;
+}
+
+.p-name {
+  font-family: PT Mono, monospace;
+  color: #51cb20;
+}
+
+.p-desc {
+  color: #fefffe;
+  font-family: "Lato", sans-serif;
+}
