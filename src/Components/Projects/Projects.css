@@ -50,3 +50,23 @@
   color: #fefffe;
   font-family: "Lato", sans-serif;
 }
+
+@media screen and (max-width: 700px) {
+  .project-heading {
+    font-size: 1.5em;
+  }
+  .p-container {
+    flex-direction: column;
+    /* width: 95vw; */
+    word-wrap: break-word;
+  }
+
+  .p-img img {
+    flex: 1;
+    /* width: 75%; */
+  }
+
+  .p-desc {
+    /* word-wrap: break-word; */
+  }
+}

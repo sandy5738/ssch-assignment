@@ -18,7 +18,7 @@ const Footer = () => {
           </a>
         </div>
         <h3 className="footer-subheading">
-          Made with ❤️ using
+          Built with ❤️ using
           <span className="footer-subhead-icons">
             <i className="footer-sub-icon fa-brands fa-html5"></i>
             <i className="footer-sub-icon fa-brands fa-css3-alt"></i>

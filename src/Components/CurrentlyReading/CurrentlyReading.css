@@ -35,3 +35,35 @@
 .cr-desc {
   color: #fefffe;
 }
+
+@media screen and (max-width: 700px) {
+  .cr-heading {
+    font-size: 1.5em;
+  }
+
+  .cr-container {
+    flex-direction: column;
+    /* width: 80%; */
+  }
+
+  .cr-book-cover img {
+    width: 200px;
+  }
+
+  .cr-info {
+    word-wrap: break-word;
+  }
+
+  .cr-book-name {
+    line-height: 30px;
+    font-size: 1.5em;
+  }
+
+  .cr-book-author {
+    font-size: 1em;
+  }
+
+  .cr-desc {
+    font-size: 0.85em;
+  }
+}

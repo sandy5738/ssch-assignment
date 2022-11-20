@@ -23,3 +23,18 @@
   padding-left: 25px;
   font-family: "PT Mono", monospace;
 }
+
+@media screen and (max-width: 700px) {
+  .hero-sub-heading {
+    /* margin-top: 10px; */
+    font-size: 1em;
+  }
+
+  .hero-lead-heading {
+    font-size: 2.5em;
+  }
+
+  .hero-lead-sub-heading {
+    font-size: 1em;
+  }
+} ;

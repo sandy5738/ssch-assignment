@@ -11,3 +11,13 @@
   color: #fefffe;
   line-height: 70px;
 }
+
+@media screen and (max-width: 700px) {
+  .leisure-sub-heading {
+    font-size: 1.5em;
+  }
+
+  .leisure-lead-heading {
+    font-size: 2.5em;
+  }
+}

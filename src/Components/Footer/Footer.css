@@ -45,3 +45,9 @@
 .footer-sub-icon:hover {
   color: #51cb20;
 }
+
+@media screen and (max-width: 700px) {
+  .footer-subheading {
+    font-size: 1em;
+  }
+}

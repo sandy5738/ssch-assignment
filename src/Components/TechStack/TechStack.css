@@ -40,3 +40,17 @@
 .fa-node-js:hover {
   color: #3c873a;
 }
+
+@media screen and (max-width: 700px) {
+  .ts-heading {
+    font-size: 1.5em;
+  }
+  .ts-one {
+    justify-content: start;
+    gap: 1.5em;
+  }
+  .ts-icon {
+    font-size: 3em;
+    padding-left: 25px;
+  }
+}
