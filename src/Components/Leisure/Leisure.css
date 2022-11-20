@@ -1,6 +1,6 @@
 .leisure-sub-heading {
   margin-top: 0;
-  font-family: PT Mono, monospace;
+  font-family: "PT Mono", monospace;
   color: #51cb20;
   padding: 25px;
 }
@@ -15,6 +15,9 @@
 @media screen and (max-width: 700px) {
   .leisure-sub-heading {
     font-size: 1.5em;
+    font-family: "PT Mono", monospace;
+    color: #51cb20;
+    padding: 25px;
   }
 
   .leisure-lead-heading {

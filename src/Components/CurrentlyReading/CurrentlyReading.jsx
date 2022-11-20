@@ -5,7 +5,7 @@ import bookSrc from "../../assets/books/four-hour-week.png";
 const CurrentlyReading = () => {
   return (
     <Section className="currently-reading">
-      <h2 className="cr-heading">Currently Reading</h2>
+      <h2 className="cr-heading">I'm Currently Reading</h2>
       <div className="cr-container">
         <div className="cr-book-cover">
           <img src={bookSrc} alt="The cover page of The Four Hour Work Week" />
