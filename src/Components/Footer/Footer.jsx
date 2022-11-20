@@ -1,10 +1,38 @@
+import { useState, useEffect } from "react";
 import Section from "../UI/Section";
 import "./Footer.css";
 
 const Footer = () => {
+  const [quote, setQuote] = useState();
+  useEffect(() => {
+    async function getData() {
+      const response = await fetch(
+        "https://good-place-quotes.herokuapp.com/api/random"
+      );
+
+      const data = await response.json();
+      setQuote(data);
+      console.log(quote);
+    }
+
+    const genQuote = setInterval(getData, 60000);
+
+    return () => {
+      clearInterval(genQuote);
+    };
+  }, [quote, setQuote]);
   return (
     <Section className="footer">
-      <h1 className="footer-heading">Adios! 👋</h1>
+      <div className="footer-one">
+        <h1 className="footer-heading">Adios! 👋</h1>
+        <p className="quote-head">
+          Enjoy a random quote from <em>The Good Place</em>
+        </p>
+        <h4 className="quote">{quote ? quote.quote : "Working on it!"}</h4>
+        <p className="quote-by">
+          <em>{quote ? quote.character : "My best man is on it!"}</em>
+        </p>
+      </div>
       <div className="footer-container">
         <div className="footer-icons">
           <a href="https://github.com/sandy5738" target="_blank">

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=PT+Mono&family=Playfair+Display:ital@1&display=swap");
 .footer {
   display: flex;
   flex-direction: column;
@@ -44,6 +45,24 @@
 
 .footer-sub-icon:hover {
   color: #51cb20;
+}
+
+.footer-one {
+  color: #fefffe;
+  word-wrap: break-word;
+}
+.quote-head {
+  padding-left: 25px;
+}
+.quote {
+  padding-left: 25px;
+  font-family: "Playfair Display", serif;
+  color: #a2aebb;
+}
+
+.quote-by {
+  padding-left: 25px;
+  color: #dfe0e2;
 }
 
 @media screen and (max-width: 700px) {
