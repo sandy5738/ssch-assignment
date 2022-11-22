@@ -1,3 +1,9 @@
+.leisure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .leisure-sub-heading {
   margin-top: 0;
   font-family: "PT Mono", monospace;
@@ -10,6 +16,11 @@
   font-size: 4em;
   color: #fefffe;
   line-height: 70px;
+}
+
+.leisure-container {
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 700px) {

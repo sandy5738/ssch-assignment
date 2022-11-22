@@ -15,7 +15,7 @@ const Footer = () => {
       console.log(quote);
     }
 
-    const genQuote = setInterval(getData, 60000);
+    const genQuote = setInterval(getData, quote ? 60000 : 1000);
 
     return () => {
       clearInterval(genQuote);

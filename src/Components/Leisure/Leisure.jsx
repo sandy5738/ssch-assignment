@@ -9,15 +9,16 @@ const Leisure = () => {
     "Watch TV Series 📺",
     "Design ✒️",
     "Listen to Music 🎶",
+    "Watch Anime 🎏",
   ];
   const [leisureWork, setLeisureWork] = useState(leisure[0]);
-  // let leisureWork = leisure[0];
+
   const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
   useEffect(() => {
     const leisureGen = setInterval(() => {
       const randomValue = random(0, leisure.length);
       setLeisureWork(leisure[randomValue]);
-    }, 1000);
+    }, 2000);
     return () => {
       clearInterval(leisureGen);
     };
@@ -25,8 +26,10 @@ const Leisure = () => {
 
   return (
     <Section className="leisure">
-      <h3 className="leisure-sub-heading">In my leisure time, I</h3>
-      <h1 className="leisure-lead-heading">{leisureWork}</h1>
+      <h2 className="leisure-sub-heading">In my leisure time, I</h2>
+      <div className="leisure-container">
+        <h1 className="leisure-lead-heading">{leisureWork}</h1>
+      </div>
     </Section>
   );
 };
